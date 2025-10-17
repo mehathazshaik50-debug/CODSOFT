@@ -1,32 +1,34 @@
-🐍 Python Mini Projects
+🐍 PYTHON MINI PROJECTS
 
-This repository contains four beginner-level Python programs designed to practice core programming concepts like loops, conditionals, functions, lists, and user input.
-Each task is independent and can be run individually in any Python environment.
+✨ OVERVIEW
 
-📘 Project Overview
-Task No.	Project Name	Description
-1	To-Do List Application	Add, view, and remove daily tasks
-2	Calculator + Age Calculator	Perform arithmetic operations and calculate age
-3	Password Generator	Generate secure, random passwords
-4	Rock–Paper–Scissors Game	Play a fun game against the computer
-🧩 TASK 1: To-Do List Application
+This repository contains four Python mini projects that demonstrate the use of functions, loops, conditionals, randomization, and user interaction.
+Each task is independent and can be executed separately.
+
+🧾 PROJECT LIST
+🧩 Task No.	💡 Project Name	🧠 Description
+1️⃣	To-Do List Application	Add, view, and remove daily tasks
+2️⃣	Calculator + Age Calculator	Perform arithmetic operations and calculate your age
+3️⃣	Password Generator	Create strong, random passwords
+4️⃣	Rock–Paper–Scissors Game	Play a fun game against the computer
+🧩 TASK 1: TO-DO LIST APPLICATION
 📌 Description
 
-A simple command-line task manager that allows users to:
+A simple command-line To-Do List Manager that allows users to:
 
-Add new tasks
+➕ Add new tasks
 
-View all existing tasks
+📋 View existing tasks
 
-Remove completed tasks
+❌ Remove completed tasks
 
 ⚙️ Features
 
-Menu-driven interface
+Interactive text-based menu
 
-Handles invalid inputs
+Validates task number before removing
 
-Displays all tasks in a numbered list
+Displays all tasks neatly
 
 ▶️ Example Output
 --- TO-DO LIST MENU ---
@@ -38,62 +40,62 @@ Enter choice: 2
 Enter a new task: Finish internship project
 Task 'Finish internship project' added successfully!
 
-🔢 TASK 2: Calculator + Age Calculator
+🔢 TASK 2: CALCULATOR + AGE CALCULATOR
 📌 Description
 
-This program contains two tools in one:
-
-A simple Calculator to perform +, −, ×, ÷ operations.
-
-An Age Calculator that finds your current age using your birth year.
+This program includes two tools in one:
+1️⃣ Simple Calculator – performs addition, subtraction, multiplication, and division.
+2️⃣ Age Calculator – calculates your current age based on your birth year.
 
 ⚙️ Features
 
-Uses Python’s datetime module to get the current year
+Uses datetime module to get the current year
 
-Clean input handling and user menu
+Menu-based system
+
+Handles numeric inputs cleanly
 
 ▶️ Example Output
 --- AGE CALCULATOR ---
 Enter your birth year (e.g. 2000): 2002
 You are 23 years old in 2025.
 
-🔐 TASK 3: Password Generator
+🔐 TASK 3: PASSWORD GENERATOR
 📌 Description
 
-A program that generates strong and random passwords using:
+A program that generates strong, random passwords using:
 
-Uppercase and lowercase letters
+🔤 Letters (uppercase + lowercase)
 
-Numbers
+🔢 Numbers
 
-Special characters
+🔣 Special characters
 
 ⚙️ Features
 
-Customizable password length
+Lets users set desired password length
 
-Uses Python’s random and string modules
+Uses Python’s random and string libraries
 
-Ensures randomness for better security
+Ensures password complexity and randomness
 
 ▶️ Example Output
 --- PASSWORD GENERATOR ---
 Enter desired password length: 10
 Generated Password: aD7@tY!m#1
 
-🪨 TASK 4: Rock–Paper–Scissors Game
+🪨 TASK 4: ROCK–PAPER–SCISSORS GAME
 📌 Description
 
-A fun user vs computer game where the computer makes a random move and compares it with the user’s choice.
+A fun and interactive user vs computer game that simulates the classic Rock–Paper–Scissors challenge.
 
 ⚙️ Features
 
-Random computer selection
+🎲 Random computer choice using the random module
 
-User input validation
+✅ Input validation for valid options
 
-Option to replay multiple rounds
+🔁 Option to replay multiple rounds
 
 ▶️ Example Output
 --- ROCK-PAPER-SCISSORS GAME ---
@@ -103,25 +105,28 @@ You win!
 Play again? (yes/no): no
 Thanks for playing! Goodbye!
 
-🧠 Concepts Used
+🧠 CONCEPTS USED
 
-Conditional Statements (if-elif-else)
+🧩 Functions – modular and reusable code blocks
 
-Loops (while, for)
+🔁 Loops – for continuous menu interaction
 
-Functions for modular code
+⚙️ Conditionals – to control program flow
 
-Error Handling (try-except)
+🧮 Arithmetic & Logic – for calculations and decisions
 
-Randomization (random module)
+🎲 Randomization – used in password generation and games
 
-String Operations and Formatting
+🕒 Datetime – to calculate user age dynamically
 
-🖥️ How to Run the Programs
+🖥️ HOW TO RUN
+🪶 Requirements
 
-Install Python 3.8 or higher.
+Python 3.8 or higher
 
-Save each code file with appropriate names:
+⚙️ Steps to Run
+
+1️⃣ Save each task in separate files:
 
 task1_todo.py
 
@@ -131,14 +136,11 @@ task3_password_generator.py
 
 task4_rps_game.py
 
-Run any program using:
+2️⃣ Open your terminal or IDE (VS Code, PyCharm, etc.)
+
+3️⃣ Run any program using:
 
 python filename.py
 
 
-Follow the on-screen menu instructions.
-
-📅 Submission Details
-
-Author: Mehthaz
-Date: 17 October 2025
+4️⃣ Follow the on-screen instructions for interaction.
