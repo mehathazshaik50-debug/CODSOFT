@@ -1,0 +1,31 @@
+# ROCK-PAPER-SCISSORS GAME
+
+import random
+
+choices = ["rock", "paper", "scissors"]
+
+def play_game():
+    print("\n--- ROCK-PAPER-SCISSORS GAME ---")
+    user = input("Choose rock, paper, or scissors: ").lower()
+    if user not in choices:
+        print("Invalid choice! Please choose rock, paper, or scissors.")
+        return
+
+    computer = random.choice(choices)
+    print(f"Computer chose: {computer}")
+
+    if user == computer:
+        print("It's a tie!")
+    elif (user == "rock" and computer == "scissors") or \
+         (user == "paper" and computer == "rock") or \
+         (user == "scissors" and computer == "paper"):
+        print("You win!")
+    else:
+        print("Computer wins!")
+
+while True:
+    play_game()
+    again = input("Play again? (yes/no): ").lower()
+    if again != "yes":
+        print("Thanks for playing! Goodbye!")
+        break

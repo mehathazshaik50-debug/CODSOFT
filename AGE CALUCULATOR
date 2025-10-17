@@ -1,0 +1,39 @@
+import datetime
+
+def calculator():
+    print("\n--- SIMPLE CALCULATOR ---")
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    op = input("Enter operation (+, -, *, /): ")
+
+    if op == '+':
+        print("Result =", num1 + num2)
+    elif op == '-':
+        print("Result =", num1 - num2)
+    elif op == '*':
+        print("Result =", num1 * num2)
+    elif op == '/':
+        print("Result =", num1 / num2)
+    else:
+        print("Invalid operation!")
+
+def age_calculator():
+    print("\n--- AGE CALCULATOR ---")
+    birth_year = int(input("Enter your birth year (e.g. 2000): "))
+    current_year = datetime.datetime.now().year
+    age = current_year - birth_year
+    print(f"You are {age} years old in {current_year}.")
+
+while True:
+    print("\n1. Calculator\n2. Age Calculator\n3. Exit")
+    ch = input("Enter your choice: ")
+
+    if ch == '1':
+        calculator()
+    elif ch == '2':
+        age_calculator()
+    elif ch == '3':
+        print("Exiting...")
+        break
+    else:
+        print("Invalid input!")
